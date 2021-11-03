@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.menu{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.658);
+    width: 100%;
+    position: fixed;
+   
+
+   
+}
+nav{
+    padding: 20px;
+    width: 1200px;
+    display: flex;
+    
+}
+.menu .logo{
+
+    width: 500px;   
+}
+
+.menu .logo h1{
+    color: rgb(6, 136, 1);
+    margin-bottom: 5px;
+    font-size: 20px;
+} 
+
+.menu .logo p{
+    color: #fff;
+}
+.menu ul{
+    display: flex;
+    width: 100%;
+    
+    justify-content: flex-end;
+}
+
+.menu ul li{
+   
+    padding: 10px;
+    list-style: none;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.TowTruck{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.towTruckMain{
+   
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+/* cont1 */
+.towTruckMainCon1{
+   
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ttCon1main{
+    text-align: center;
+    color: #fff;
+}
+.towTruckMainCon1 img{
+    width: 500px;
+    margin: 50px;
+}
+
+
+button{
+    margin-top: 50px ;
+    padding: 20px;
+    background-color: rgb(6, 136, 1);
+    border: none;
+    color: #fff;
+
+}
+
+.TowTruck button:hover{
+    background:none;
+    border: 1px rgb(6, 136, 1) solid;
+    
+}
+.cont2b1{
+
+    margin: 20px;
+    width: 300px;
+    display: flex;
+   
+    height: 100px;
+    background-color: rgb(6, 136, 1);
+    color: rgb(180, 241, 211);
+    
+}
+
+.towTruckMainCon2{
+ 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont2b1 .num{
+    text-align: center;
+    line-height: 100px;
+   font-size: 30px;
+   width: 80px;
+   border-right:1px rgb(0, 0, 0) solid;
+}
+
+.cont2b1 .inf{
+    text-align: center;
+    line-height: 100px;
+    width: 200px;
+}
+#k2{
+   margin: 70px;
+  
+}
+
+
+
+
+.OurServices{
+    height: 2000px;
+    background-color: rgba(242, 255, 205, 0.5);
+}
+
+.OurServicesMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+ 
+}
+
+.OurServicesMain .con1Content{
+    padding-top: 20px;
+
+}
+.OurServices .con1 .con1Text{
+    text-align: center;
+}
+.OurServices .con1 .con1Text h2{
+    color: rgb(52, 70, 58);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/*rgb(117, 145, 94)*/
+
+.OurServices .con1 .con1Text p{
+    color: rgb(0, 0, 0);
+}
+.OurServices .con1 .con1Info{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.OurServices .con1 .con1Info .con1B1{
+    width: 300px ;
+  
+    margin-left: 10px;
+    text-align: center;
+}
+.OurServices .con1 .con1Info i{
+    font-size: 70px;
+    padding: 20px;
+    color: rgb(49, 68, 55);
+}
+
+.OurServices .con1 .con1Info h4{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+    
+}
+
+
+.con2{
+    margin-top: 80px;
+  
+    
+   
+}
+
+.con2Info{
+    display: flex;
+    width: 900px;
+    
+}
+
+
+
+.con2Text h2{
+    font-size: 30px;
+    color: rgb(52, 70, 58);
+    margin-bottom: 10px;
+}
+.con2Text p{
+    font-size: 20px;
+}
+.con2InfoAr{
+    margin-top: 20px;
+}
+.con2InfoAr ul{
+    display: flex;
+}
+
+.con2InfoAr ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1px;
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    background-color: rgb(0, 0, 0);
+}
+
+.con2InfoAr ul li i{
+    color: rgb(52, 70, 58);
+    
+    font-size: 70px;
+}
+
+.con2InfoAr ul li  p{
+    color: #fff;
+    margin-top: 12px;
+    font-size: 13px;
+    text-align: center;
+}
+.con2InfoZakaz{
+    height: 400px;
+    margin:20px;
+    margin-left: 90px;
+    
+    
+}
+
+.con2InfoZakaz h3{
+    margin-bottom: 20px ;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+   
+}
+
+.con2InfoZakaz p{
+    color: rgb(4, 66, 31);
+    margin-bottom: 70px;
+   
+
+
+}
+
+.con2InfoZakaz button {
+    background-color: rgb(49, 68, 55);
+}
+.con2InfoZakaz button:hover{
+    background: none ;
+    border: 1px rgb(49, 68, 55) solid;
+    color: rgba(0, 0, 0);
+}
+.call{
+    width: 150px;
+    
+  }
+  .call-animation {
+    
+      width: 100px;
+      height: 100px;
+      position: relative;
+        margin: 40px auto;
+      border-radius: 100%;
+      animation: play 2s ease infinite;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      backface-visibility: hidden;
+    
+  }
+  
+   .call img {
+          width: 110px;
+          height: 110px;
+          border-radius: 100%;
+          position: absolute;
+          right:0px
+          
+      }
+  @keyframes play {
+  
+      0% {
+          transform: scale(1);
+      }
+      15% {
+          box-shadow: 0 0 0 5px rgba(200, 255, 189, 0.4);
+      }
+      25% {
+          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4), 0 0 0 20px rgba(255, 255, 255, 0.2);
+      }
+      25% {
+          box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.4), 0 0 0 30px rgba(255, 255, 255, 0.2);
+      }
+  
+  }
+  
+
+  .con3{
+    margin-top: 50px;
+   
+    
+}
+
+.con3Text {
+    margin-bottom: 30px;
+   
+}
+
+.con3Text p{
+    
+    font-size: 25px;
+    color: rgb(49, 68, 55);
+    margin-bottom: 10px;
+}
+
+.con3Text p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.con3Info{
+   
+    border-left:1px #000 solid ;
+    padding: 20px;
+    
+}
+
+
+.con3Info h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+   
+}
+
+.con3 button{
+    background-color: rgb(49, 68, 55);
+
+}
+.con3f2{
+ 
+    display: flex;
+}
+
+
+.bbut{
+    display: flex;
+}
+.con3F1 {
+    
+    margin-right:10px ;
+   
+}
+.con3F1 label{
+    color: rgba(0, 0, 0, 0.329);
+}
+
+.con3F1 input{
+    width: 200px;
+    height: 30px;
+    
+}
+
+
+.con3Info img{
+    width: 400px;
+   
+}
+
+
+
+
+.con4 h3{
+    margin-top: 50px;
+    color: rgb(49, 68, 55);
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.con4 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.con4lis ul {
+   
+   display: flex;
+}    
+
+.con4lis ul  li{
+    width: 300px;
+    margin: 1px;
+    list-style: none;
+    height: 300px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.con4Info ul li i{
+    font-size: 100px;
+    color: rgb(49, 68, 55);
+    text-align: center;
+}
+
+.con4Info ul li h5{
+    text-align: center;
+    
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.con4Info ul li p{
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+.AboutUs{
+    width: 100%;
+    background-color: #000;
+    color:#fff;
+    height: 450px;
+}
+
+.AboutUsMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.AboutUsCont1{
+    width: 450px;
+    
+}
+.aboutUsVer h3{
+    color: rgb(0, 94, 0);
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.aboutUsVer p{
+    margin-bottom: 20px;
+    
+}
+
+.aboutUsInfo{
+    margin-left: 5px;
+    padding-left: 10px ;rgb(0, 94, 0);
+    border-left: 1px rgba(255, 255, 255, 0.342) solid;
+}
+
+.aboutUsInfo button{
+    margin-top: 20px;
+}
+.AboutUsCont2{
+    width: 450px;
+    
+    
+}
+.AboutUsCont2 img{
+    margin-top: 50px ;
+    width: 500px;
+}
+
+.Contacts{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(231, 228, 216);
+}
+
+.ContactsCon2 {
+    width: 50%;
+}
+
+.ContactsCon1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    
+}
+
+.ContactsCon1 h3{
+    color: rgb(49, 68, 55);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.ContactsCon1 ul li{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    list-style:none;
+}
+
+.Contacts button{
+    background-color: rgb(49, 68, 55);
+}
+
+.ContactsCon1 ul li::before{
+    background-image: url('/img/3.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 30px; 
+    height: 20px;
+    content:"";
+}
+
+.ContactsCon1 button{
+    width: 200px;
+    margin-left: 20px;
+    margin: 20px;
+
+}
